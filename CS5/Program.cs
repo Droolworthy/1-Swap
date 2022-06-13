@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace CS5
 {
@@ -7,10 +7,10 @@ namespace CS5
         static void Main(string[] args)
         {
             string name = "Vladimir";
-            string family = "Hohlov";
-            (name, family) = (family, name);
-            Console.WriteLine($"{family}, {name}.");
-            Console.WriteLine($"{name}, {family}.");
+            string surname = "Hohlov";
+            (name, surname) = (surname, name);
+            Console.WriteLine($"{surname}, {name}.");
+            Console.WriteLine($"{name}, {surname}.");
         }
     }
 }
